@@ -3,12 +3,137 @@
 body {
   background-color: rgba(249, 249, 255, 0.842); }
 
+/* H1 index*/
 .tituloNoAparece {
   display: none; }
 
-/* Section */
+/*H1*/
+h1 {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  background-image: url(../multimedia/poligonoCeleste.png);
+  padding: 5%;
+  text-shadow: 2px 4px 3px #7a7a7a; }
+
+/*H2*/
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: black;
+  background-image: url(../multimedia/metal.jpg);
+  background-size: 200%;
+  margin-bottom: 1em;
+  padding: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 4px 3px #7a7a7a; }
+
+/*H3*/
+h3 {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  margin-bottom: 1em;
+  text-align: center; }
+
+/*H4*/
+h4 {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  text-align: center; }
+
+/*p*/
+.parrafo {
+  color: #043630;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin: 0%;
+  margin-bottom: 2em;
+  padding: 1%;
+  text-align: center;
+  background: #9cc3ff;
+  background: linear-gradient(90deg, #9cc3ff 0%, rgba(58, 218, 255, 0.835172) 47%, #26daff 78%, rgba(255, 255, 255, 0.689513) 100%); }
+
+/* Barra de Navegación */
+nav {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold; }
+
+.navbar-nav .nav-link.active:hover {
+  color: #007dc5;
+  border-bottom: 2px solid #007dc5; }
+
+/* Carrusel */
+.carousel .card-img-filter {
+  filter: brightness(0.4); }
+
+.carousel-caption {
+  top: 35%; }
+  .carousel-caption .promo {
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #ffffff; }
+  .carousel-caption p {
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff; }
+
+/* Cards Poligonos*/
+.cardsContainer .btnPoligonos {
+  margin-left: 35%;
+  margin-right: 35%; }
+
+.cardsContainer h2 {
+  margin-top: 1em; }
+
+.cardsContainer p {
+  font-size: 1.1em; }
+
+.cardsContainer .card {
+  transition: .6s;
+  clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0%); }
+  .cardsContainer .card h3 {
+    color: #ffffff; }
+
+.cardsContainer .card-effect:hover .card {
+  clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%); }
+
+.card-effect:hover .card-img-overlay {
+  transform: scale(0.8); }
+
+.card-img-filter {
+  filter: brightness(0.4); }
+
+/* Testimonios (Estas mismas clases las usé para el apartado de Seguimos creciendo junto a vos*/
+.testimonios {
+  text-align: center;
+  background-color: #cccccc;
+  padding-bottom: 2em; }
+  .testimonios .col-lg-4 {
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 0%; }
+  .testimonios h3 {
+    margin-bottom: 1em;
+    color: #000000;
+    font-family: "Nunito", sans-serif; }
+  .testimonios p {
+    font-size: 1.1em; }
+
+.imagen {
+  clip-path: circle(); }
+
+/* Sobre Nosotros */
 .sobreNosotrosRow {
-  background: #2897de;
   background: linear-gradient(0deg, rgba(40, 151, 222, 0.700718) 0%, rgba(68, 133, 175, 0.678309) 50%, rgba(170, 170, 170, 0.986432) 100%); }
   .sobreNosotrosRow h3 {
     bottom: 10%;
@@ -25,6 +150,57 @@ body {
     margin-top: 3em;
     margin-bottom: 3em; }
 
+/* galeria */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-bottom: 1em; }
+  .galeria .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px; }
+    .galeria .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+      filter: grayscale(1) brightness(0.5);
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s linear; }
+      .galeria .column img:hover {
+        filter: grayscale(0); }
+
+/* Main - Cursos */
+.curso p {
+  font-size: 1.1em; }
+
+.curso1 {
+  color: #000;
+  border-bottom: 2px solid #750085; }
+
+.curso2 {
+  color: #000;
+  border-bottom: 2px solid #04a086; }
+
+.curso3 {
+  color: #000;
+  border-bottom: 2px solid #c89317; }
+
+.curso4 {
+  color: #000;
+  border-bottom: 2px solid #a50000; }
+
+.cardsCursos {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin: 2em;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); }
+  .cardsCursos:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1); }
+
+/*  Contactos - formulario */
 .row .formulario {
   font-family: "Roboto", sans-serif;
   font-size: 1.1em; }
@@ -74,138 +250,6 @@ body {
 
 .row .bg-light {
   background-color: #dfdfe4 !important; }
-
-/* Barra de Navegación */
-nav {
-  font-family: "Cairo", sans-serif;
-  font-size: 1.3em;
-  font-weight: bold; }
-
-.navbar-nav .nav-link.active:hover {
-  color: #007dc5;
-  border-bottom: 2px solid #007dc5; }
-
-/* Barra de navegación footer*/
-.footer-style {
-  padding-top: 50px;
-  background-color: #007dc5; }
-
-/* footer */
-footer {
-  color: white; }
-  footer h3 {
-    margin-bottom: 30px;
-    color: #ffffff; }
-  footer p {
-    font-size: 1.1em; }
-  footer .footer-above {
-    padding-top: 50px;
-    background-color: #2C3E50; }
-  footer .footer-col {
-    margin-bottom: 50px; }
-  footer .footer-below {
-    padding: 25px 0;
-    background-color: #233140; }
-  footer .fa {
-    padding: 10px;
-    font-size: 1.5em;
-    width: 50px;
-    text-align: center;
-    text-decoration: none; }
-  footer a {
-    color: honeydew; }
-    footer a .twitter .facebook .instagram {
-      color: white;
-      padding: 2em; }
-  footer .facebook:hover {
-    transform: scale(1.1, 1.1);
-    color: #2a41c2; }
-  footer .instagram:hover {
-    transform: scale(1.1, 1.1);
-    color: #ca409c; }
-  footer .twitter:hover {
-    transform: scale(1.1, 1.1);
-    color: #35d0ff; }
-
-/* TABLA GRID*/
-/* Main - Cursos */
-.curso p {
-  font-size: 1.1em; }
-
-.curso1 {
-  color: #000;
-  border-bottom: 2px solid #750085; }
-
-.curso2 {
-  color: #000;
-  border-bottom: 2px solid #04a086; }
-
-.curso3 {
-  color: #000;
-  border-bottom: 2px solid #c89317; }
-
-.curso4 {
-  color: #000;
-  border-bottom: 2px solid #a50000; }
-
-.cardsCursos {
-  transition: all 0.2s ease;
-  cursor: pointer;
-  margin: 2em;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); }
-  .cardsCursos:hover {
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    transform: scale(1.1); }
-
-/*H1*/
-h1 {
-  font-family: "Nunito", sans-serif;
-  color: black;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-  text-align: center;
-  background-image: url(../multimedia/poligonoCeleste.png);
-  padding: 5%;
-  text-shadow: 2px 4px 3px #7a7a7a; }
-
-/*H2*/
-h2 {
-  font-family: "Nunito", sans-serif;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-  text-align: center;
-  text-shadow: 2px 4px 3px #7a7a7a; }
-
-/*H3*/
-h3 {
-  font-family: "Nunito", sans-serif;
-  color: black;
-  margin-bottom: 1em;
-  text-align: center; }
-
-/*H4*/
-h4 {
-  font-family: "Nunito", sans-serif;
-  color: black;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-  text-align: center; }
-
-/*p*/
-.parrafo {
-  color: #043630;
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder;
-  font-size: 1.2em;
-  line-height: 1.8;
-  margin: 0%;
-  margin-bottom: 2em;
-  padding: 1%;
-  text-align: center;
-  background: #9cc3ff;
-  background: linear-gradient(90deg, #9cc3ff 0%, rgba(58, 218, 255, 0.835172) 47%, #26daff 78%, rgba(255, 255, 255, 0.689513) 100%); }
 
 /* Main - Tecnicaturas */
 .cardsTecnicaturas {
@@ -283,91 +327,54 @@ a {
   align-items: left;
   text-decoration: none; }
 
-/* Cards Poligonos*/
-.cardsContainer .btnPoligonos {
-  margin-left: 35%;
-  margin-right: 35%; }
+/* Barra de navegación footer*/
+.footer-style {
+  padding-top: 1em;
+  background-color: #007dc5; }
 
-.cardsContainer h2 {
-  margin-top: 1em; }
-
-.cardsContainer p {
-  font-size: 1.1em; }
-
-.cardsContainer .card {
-  transition: .6s;
-  clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0%); }
-  .cardsContainer .card h3 {
-    color: #ffffff; }
-
-.cardsContainer .card-effect:hover .card {
-  clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%); }
-
-.card-effect:hover .card-img-overlay {
-  transform: scale(0.8); }
-
-.card-img-filter {
-  filter: brightness(0.4); }
-
-/* Carrusel */
-.carousel .card-img-filter {
-  filter: brightness(0.4); }
-
-.carousel-caption {
-  top: 35%; }
-  .carousel-caption .promo {
-    font-size: 3vw;
-    font-weight: bold;
+/* footer */
+footer {
+  color: white; }
+  footer h3 {
+    text-decoration: underline;
     margin-bottom: 1em;
     color: #ffffff; }
-  .carousel-caption p {
-    font-size: 2vw;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    color: #ffffff; }
-
-/* Testimonios */
-.testimonios {
-  text-align: center;
-  background-color: #cccccc;
-  padding-top: 2em;
-  padding-bottom: 2em; }
-  .testimonios .col-lg-4 {
-    padding: 100px;
+  footer p {
+    font-size: 1.1em;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; }
+  footer .footer-above {
     padding-top: 10px;
-    padding-bottom: 0%; }
-  .testimonios h3 {
-    margin-bottom: 1em;
-    color: #000000;
-    font-family: "Nunito", sans-serif; }
-  .testimonios p {
-    font-size: 1.1em; }
+    background-color: #2C3E50; }
+  footer .footer-col {
+    margin-bottom: 1em; }
+  footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140; }
+  footer .fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none; }
+  footer a {
+    color: honeydew;
+    display: inline-block; }
+    footer a .twitter .facebook .instagram {
+      color: white;
+      padding: 2em; }
+  footer .facebook:hover {
+    transform: scale(1.1, 1.1);
+    color: #2a41c2; }
+  footer .instagram:hover {
+    transform: scale(1.1, 1.1);
+    color: #ca409c; }
+  footer .twitter:hover {
+    transform: scale(1.1, 1.1);
+    color: #35d0ff; }
 
-.imagen {
-  clip-path: circle(); }
-
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin-bottom: 1em; }
-  .galeria h2 {
-    margin-top: 1em; }
-  .galeria .column {
-    flex: 25%;
-    max-width: 33.3%;
-    padding: 0 4px; }
-    .galeria .column img {
-      margin-top: 8px;
-      vertical-align: middle;
-      width: 100%;
-      filter: grayscale(1) brightness(0.5);
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.3s linear; }
-      .galeria .column img:hover {
-        filter: grayscale(0); }
-
+/* NavBar */
 @media (min-width: 150px) and (max-width: 320px) {
   .navbar-brand {
     padding-top: .3125rem;
@@ -404,6 +411,7 @@ a {
       width: 270px;
       height: 66px; } }
 
+/* Carrusel Index */
 @media (max-width: 280px) {
   .carousel-caption {
     top: 0%;
@@ -494,6 +502,7 @@ a {
       padding-right: 0.5rem !important;
       padding-left: 0.5rem !important; } }
 
+/* Sobre Nosotros */
 @media (max-width: 1250px) {
   .sobreNosotrosRow h3 {
     text-align: center; }
@@ -507,6 +516,7 @@ a {
   .sobreNosotrosRow .logo {
     margin-left: 0%; } }
 
+/* Testimonios */
 @media (min-width: 100px) and (max-width: 1400px) {
   .testimonios .col-lg-4 {
     padding: 40px;
@@ -520,6 +530,7 @@ a {
     padding: 40px;
     padding-top: 10px; } }
 
+/*  Poligonos */
 @media (min-width: 200px) and (max-width: 300px) {
   .cardsContainer .btnPoligonos {
     margin-left: 25%;
@@ -545,6 +556,7 @@ a {
   .cardsContainer P {
     font-size: 1.2em; } }
 
+/* form contacto */
 @media (min-width: 150px) and (max-width: 319px) {
   .sexo {
     padding: 5%; }
