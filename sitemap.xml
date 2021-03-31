@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://krizalid23.github.io/proyecto-coder/</loc>
+    <lastmod>2021-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/Recurso-2.png</image:loc>
+      <image:title>Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/carrusel7.jpg</image:loc>
+      <image:title>carrusel3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/carrusel8.jpeg</image:loc>
+      <image:title>carrusel2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/carrusel9.jpg</image:loc>
+      <image:title>carrusel4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/verde.jpg</image:loc>
+      <image:title>fondoVerde</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/azul.jpg</image:loc>
+      <image:title>fondoAzul</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/azulClaro.jpg</image:loc>
+      <image:title>fondoAzulClaro</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/camila2.jpg</image:loc>
+      <image:title>Camila</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/ignacio.jpg</image:loc>
+      <image:title>Ignacio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/bel.jpg</image:loc>
+      <image:title>Belen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/Logotipo500.png</image:loc>
+      <image:title>Nosotros</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/1.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/5.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/8.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/3.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/4.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/2.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/6.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/9.jpg</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>https://krizalid23.github.io/proyecto-coder/paginas/contacto.html</loc>
+    <lastmod>2021-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/Recurso-2.png</image:loc>
+      <image:title>Logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://krizalid23.github.io/proyecto-coder/paginas/carreras.html</loc>
+    <lastmod>2021-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/Recurso-2.png</image:loc>
+      <image:title>Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/abogacia1.jpg</image:loc>
+      <image:title>Sample photo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/licInfo1.png</image:loc>
+      <image:title>Informatica</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/contador1.jpg</image:loc>
+      <image:title>Contador</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/periodismo1.png</image:loc>
+      <image:title>Periodismo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/escribania1.jpg</image:loc>
+      <image:title>Escribania</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/nutri1.png</image:loc>
+      <image:title>Nutricion</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://krizalid23.github.io/proyecto-coder/paginas/tecnicaturas.html</loc>
+    <lastmod>2021-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/Recurso-2.png</image:loc>
+      <image:title>Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/dise%C3%B1o2.jpg</image:loc>
+      <image:title>Sample photo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/sis2.jpg</image:loc>
+      <image:title>Sample photo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/gestion2.jpg</image:loc>
+      <image:title>Sample photo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/higiene2.jpg</image:loc>
+      <image:title>Sample photo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/adm1.jpg</image:loc>
+      <image:title>Sample photo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://krizalid23.github.io/proyecto-coder/paginas/cursos.html</loc>
+    <lastmod>2021-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/Recurso-2.png</image:loc>
+      <image:title>Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-usa-96.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-brazil-96.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-adobe-photoshop-96.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-adobe-illustrator-96.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-php-96.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-python-96.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-html-5-96.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-css3-96.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/icons8-javascript-96.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>https://krizalid23.github.io/proyecto-coder/index.html</loc>
+    <lastmod>2021-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/Recurso-2.png</image:loc>
+      <image:title>Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/carrusel7.jpg</image:loc>
+      <image:title>carrusel3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/carrusel8.jpeg</image:loc>
+      <image:title>carrusel2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/carrusel9.jpg</image:loc>
+      <image:title>carrusel4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/verde.jpg</image:loc>
+      <image:title>fondoVerde</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/azul.jpg</image:loc>
+      <image:title>fondoAzul</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/azulClaro.jpg</image:loc>
+      <image:title>fondoAzulClaro</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/camila2.jpg</image:loc>
+      <image:title>Camila</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/ignacio.jpg</image:loc>
+      <image:title>Ignacio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/bel.jpg</image:loc>
+      <image:title>Belen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/Logotipo500.png</image:loc>
+      <image:title>Nosotros</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/1.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/5.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/8.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/3.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/4.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/2.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/6.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://krizalid23.github.io/proyecto-coder/multimedia/9.jpg</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+</urlset>
+<!--<guid value="1a6ee4b1-adbb-4dd4-ab32-e454844201ba" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

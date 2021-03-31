@@ -72,7 +72,7 @@ nav {
 
 /* Carrusel */
 .carousel .card-img-filter {
-  filter: brightness(0.4); }
+  filter: brightness(0.3); }
 
 .carousel-caption {
   top: 35%; }
@@ -83,7 +83,7 @@ nav {
     color: #ffffff; }
   .carousel-caption p {
     font-size: 2vw;
-    font-weight: bold;
+    font-weight: bolder;
     font-family: "Roboto", sans-serif;
     color: #ffffff; }
 
@@ -159,7 +159,8 @@ nav {
   .galeria .column {
     flex: 25%;
     max-width: 33.3%;
-    padding: 0 4px; }
+    padding: 0 4px;
+    margin-bottom: 1.5em; }
     .galeria .column img {
       margin-top: 8px;
       vertical-align: middle;
@@ -172,8 +173,11 @@ nav {
         filter: grayscale(0); }
 
 /* Main - Cursos */
-.curso p {
-  font-size: 1.1em; }
+.curso {
+  background-color: snow !important;
+  border: 2px solid #c2c2c2; }
+  .curso p {
+    font-size: 1.1em; }
 
 .curso1 {
   color: #000;
@@ -197,13 +201,14 @@ nav {
   margin: 2em;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); }
   .cardsCursos:hover {
-    box-shadow: 5px 6px 6px 2px #e9ecef;
+    box-shadow: 5px 6px 6px 2px #8f9499;
     transform: scale(1.1); }
 
 /*  Contactos - formulario */
 .row .formulario {
   font-family: "Roboto", sans-serif;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  margin-bottom: 1.5em; }
 
 .row label {
   color: #333; }
@@ -256,7 +261,8 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: initial;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin-bottom: 1.5em; }
   .cardsTecnicaturas .card {
     flex: 0 0 340px;
     margin: 10px;
@@ -294,7 +300,8 @@ a {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: initial;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin-bottom: 1.5em; }
   .cardsCarreras .card {
     flex: 0 0 290px;
     margin: 8px;
